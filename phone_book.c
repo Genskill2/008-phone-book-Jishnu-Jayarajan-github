@@ -241,8 +241,6 @@ int delete(FILE *db_file, char *name) {
          
          If the node to be deleted is p0, it's a special case. 
       */
-
-      /* TBD */
       
        if(strcmp(base->name, name) == 0){
          base = p->next;
